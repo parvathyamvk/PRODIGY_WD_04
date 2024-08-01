@@ -1,0 +1,157 @@
+html{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d8d8d8;
+    width:100%
+}
+.navbar{
+    background-color: #063c5c;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+.navul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.link{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.imge{
+    height: 50px; 
+    width: 50px;
+    display: flex;
+    justify-content: left;
+}
+.navbar-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    position: absolute;
+    top: 250px;
+    right:200px;
+    font-size: 40px;
+}
+h2{
+    position: absolute;
+    top: 315px;
+    right:250px;
+    font-size: 30px;
+}
+.image{
+    
+    padding-top: 80px;
+    padding-left:100px;
+    
+}
+.image-im{
+    height:300px;
+    width:auto;
+    
+    
+}
+section{
+    padding: 100px 20px;
+    height: 100vh;       
+}
+h3{
+    font-size: 50px;
+    text-align: center;
+}
+.p1{
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+}
+.edu{
+    list-style: none;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.edu-li{
+    padding: 25px;
+}
+.p2{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.ski{
+    list-style: none;
+    font-size: x-large;
+    text-align: center;
+    
+}
+.ski-li{
+    padding: 25px;
+}
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    width: 423px;
+    padding: 10px;
+    background-color: #55b0e4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #00559b;
+}
+
+
+
+
+
